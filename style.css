@@ -1,0 +1,46 @@
+body{
+    color: rgb(255, 0, 0);
+
+
+}
+#container{
+background-color: rgb(0, 162, 255);
+    width: 1000px;
+margin: auto;
+
+}
+#menu{
+background-color: rgb(73, 122, 197);
+
+
+}
+#topo{
+    
+    height: 150px;
+list-style: none;
+padding:  0;
+background-color: rgb(30, 102, 210);
+margin: 0px;
+
+    
+}
+
+#menu-de-lista li{
+    display: inline;
+}
+
+
+#menu-de-lista li a {
+    color: rgb(255, 13, 13);
+text-decoration: none;
+display:inline-block;
+padding: 10px;
+transition:background .3s;
+
+}
+#menu-de-lista li a:hover{
+
+    background-color: aqua;
+
+
+}
